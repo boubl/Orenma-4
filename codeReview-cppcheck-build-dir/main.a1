@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3170504175">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Texture&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Texture&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/dev/repos/Orenma 4/src/main/main.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\framework\Texture.h" line="10" column="2"/>
+            <symbol>Texture</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Editor&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Editor&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/dev/repos/Orenma 4/src/main/main.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\editor\Editor.h" line="13" column="2"/>
+            <symbol>Editor</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;surface&apos; is assigned a value that is never used." verbose="Variable &apos;surface&apos; is assigned a value that is never used." cwe="563" file0="C:/dev/repos/Orenma 4/src/main/main.cpp">
+            <location file="C:\dev\repos\Orenma 4\src\main\main.cpp" line="29" column="13"/>
+            <symbol>surface</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="10"/>
+    <functioncall functionName="Begin"/>
+    <functioncall functionName="Close"/>
+    <functioncall functionName="Draw"/>
+    <functioncall functionName="Editor"/>
+    <functioncall functionName="End"/>
+    <functioncall functionName="Events"/>
+    <functioncall functionName="IMG_GetError"/>
+    <functioncall functionName="IMG_INIT_PNG"/>
+    <functioncall functionName="IMG_Init"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="SDL_CreateWindow"/>
+    <functioncall functionName="SDL_DestroyWindow"/>
+    <functioncall functionName="SDL_GetError"/>
+    <functioncall functionName="SDL_GetWindowID"/>
+    <functioncall functionName="SDL_GetWindowSurface"/>
+    <functioncall functionName="SDL_INIT_GAMECONTROLLER"/>
+    <functioncall functionName="SDL_Init"/>
+    <functioncall functionName="SDL_Log"/>
+    <functioncall functionName="SDL_PollEvent"/>
+    <functioncall functionName="SDL_Quit"/>
+    <functioncall functionName="SDL_SetWindowTitle"/>
+    <functioncall functionName="SDL_WINDOWPOS_CENTERED"/>
+    <functioncall functionName="SDL_WINDOW_ALLOW_HIGHDPI"/>
+    <functioncall functionName="Texture"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="done"/>
+    <functioncall functionName="editor"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="imgFlags"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

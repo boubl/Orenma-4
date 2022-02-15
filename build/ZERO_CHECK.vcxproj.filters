@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\repos\Orenma 4\build\CMakeFiles\ef0c13b14cbd69a0cc8c73995d749a94\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3DA873CF-4520-3847-AF7E-0C8E2952B314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1806629726">
+        <error id="noConstructor" severity="style" msg="The class &apos;Mouse&apos; does not declare a constructor although it has private member variables which likely require initialization." verbose="The class &apos;Mouse&apos; does not declare a constructor although it has private member variables. Member variables of builtin types are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="C:/dev/repos/Orenma 4/src/io/mouse.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\io\Mouse.h" line="4" column="1"/>
+            <symbol>Mouse</symbol>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;Mouse::UpdateStatus&apos;" verbose="Unused private function: &apos;Mouse::UpdateStatus&apos;" cwe="398" file0="C:/dev/repos/Orenma 4/src/io/mouse.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\io\Mouse.h" line="18" column="7"/>
+            <symbol>Mouse::UpdateStatus</symbol>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &apos;!&apos; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="C:/dev/repos/Orenma 4/src/io/mouse.cpp">
+            <location file="C:\dev\repos\Orenma 4\src\io\mouse.cpp" line="7" column="41"/>
+        </error>
+  <FileInfo check="Class">
+<class name="Mouse" file="C:/dev/repos/Orenma 4/include/io/Mouse.h" line="4" col="1" hash="1865738019100556122"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/dev/repos/Orenma 4/include/io/Mouse.h:18:7" my-argnr="1" my-argname="event" file="C:/dev/repos/Orenma 4/src/io/mouse.cpp" line="7" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/dev/repos/Orenma 4/include/io/Mouse.h:18:7" my-argnr="1" my-argname="event" file="C:/dev/repos/Orenma 4/src/io/mouse.cpp" line="7" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="UpdateStatus" lineNumber="6"/>
+    <functioncall functionName="SDL_MOUSEWHEEL"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xrel"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="yrel"/>
+  </FileInfo>
+</analyzerinfo>

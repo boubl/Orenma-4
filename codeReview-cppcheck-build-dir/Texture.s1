@@ -1,0 +1,4 @@
+Texture
+Texture call:[Free] noreturn:[Free]
+Free call:[SDL_DestroyTexture] noreturn:[SDL_DestroyTexture]
+FromFile call:[Free,IMG_LoadTexture,SDL_GetError,SDL_Log,SDL_QueryTexture,c_str] noreturn:[SDL_QueryTexture]

@@ -1,0 +1,12 @@
+C:/dev/repos/Orenma 4/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/repos/Orenma 4/build/CMakeFiles/ZERO_CHECK.dir
+C:/dev/repos/Orenma 4/build/src/editor/CMakeFiles/editor.dir
+C:/dev/repos/Orenma 4/build/src/editor/CMakeFiles/ALL_BUILD.dir
+C:/dev/repos/Orenma 4/build/src/framework/CMakeFiles/framework.dir
+C:/dev/repos/Orenma 4/build/src/framework/CMakeFiles/ALL_BUILD.dir
+C:/dev/repos/Orenma 4/build/src/io/CMakeFiles/io.dir
+C:/dev/repos/Orenma 4/build/src/io/CMakeFiles/ALL_BUILD.dir
+C:/dev/repos/Orenma 4/build/src/main/CMakeFiles/main.dir
+C:/dev/repos/Orenma 4/build/src/main/CMakeFiles/ALL_BUILD.dir
+C:/dev/repos/Orenma 4/build/include/imgui/CMakeFiles/imgui.dir
+C:/dev/repos/Orenma 4/build/include/imgui/CMakeFiles/ALL_BUILD.dir

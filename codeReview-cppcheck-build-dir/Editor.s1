@@ -1,0 +1,6 @@
+Editor
+Init call:[FromFile,SDL_GetError,printf] noreturn:[printf]
+Events
+Update
+Draw call:[Draw]
+Close call:[Texture]

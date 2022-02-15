@@ -1,0 +1,6 @@
+Editor.a1::C:/dev/repos/Orenma 4/src/editor/Editor.cpp
+Renderer.a1::C:/dev/repos/Orenma 4/src/framework/Renderer.cpp
+Texture.a1::C:/dev/repos/Orenma 4/src/framework/Texture.cpp
+io.a1::C:/dev/repos/Orenma 4/src/io/io.cpp
+mouse.a1::C:/dev/repos/Orenma 4/src/io/mouse.cpp
+main.a1::C:/dev/repos/Orenma 4/src/main/main.cpp

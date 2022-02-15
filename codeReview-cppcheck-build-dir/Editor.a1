@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2911851513">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;Window_name&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;Window_name&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="C:/dev/repos/Orenma 4/src/editor/Editor.cpp">
+            <location file="C:\dev\repos\Orenma 4\src\editor\Editor.cpp" line="6" column="2"/>
+            <symbol>Window_name</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Texture&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Texture&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/dev/repos/Orenma 4/src/editor/Editor.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\framework\Texture.h" line="10" column="2"/>
+            <symbol>Texture</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Editor&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Editor&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="C:/dev/repos/Orenma 4/src/editor/Editor.cpp">
+            <location file="C:\dev\repos\Orenma 4\include\editor\Editor.h" line="13" column="2"/>
+            <symbol>Editor</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;name&apos; should be passed by const reference." verbose="Parameter &apos;name&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="C:/dev/repos/Orenma 4/src/editor/Editor.cpp">
+            <location file="C:\dev\repos\Orenma 4\src\editor\Editor.cpp" line="5" column="23"/>
+            <symbol>name</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="Editor" file="C:/dev/repos/Orenma 4/include/editor/Editor.h" line="7" col="1" hash="3851053889965305482"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Init" lineNumber="9"/>
+    <functiondecl functionName="Events" lineNumber="16"/>
+    <functiondecl functionName="Update" lineNumber="20"/>
+    <functiondecl functionName="Draw" lineNumber="24"/>
+    <functiondecl functionName="Close" lineNumber="30"/>
+    <functioncall functionName="Draw"/>
+    <functioncall functionName="Editor"/>
+    <functioncall functionName="FromFile"/>
+    <functioncall functionName="SDL_GetError"/>
+    <functioncall functionName="TestSprite"/>
+    <functioncall functionName="Texture"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="point"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

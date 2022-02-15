@@ -1,0 +1,1 @@
+main call:[Begin,Close,Draw,End,Events,IMG_GetError,IMG_Init,Init,SDL_CreateWindow,SDL_DestroyWindow,SDL_GetError,SDL_GetWindowID,SDL_GetWindowSurface,SDL_Init,SDL_Log,SDL_PollEvent,SDL_Quit,SDL_SetWindowTitle,Update,c_str,editor,printf] noreturn:[End,Events]

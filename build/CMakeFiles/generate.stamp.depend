@@ -1,0 +1,41 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+C:/dev/repos/Orenma 4/CMakeLists.txt
+C:/dev/repos/Orenma 4/build/CMakeFiles/3.22.2/CMakeCCompiler.cmake
+C:/dev/repos/Orenma 4/build/CMakeFiles/3.22.2/CMakeCXXCompiler.cmake
+C:/dev/repos/Orenma 4/build/CMakeFiles/3.22.2/CMakeRCCompiler.cmake
+C:/dev/repos/Orenma 4/build/CMakeFiles/3.22.2/CMakeSystem.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2-image/sdl2-image-config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2-image/sdl2-image-targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2-image/sdl2-image-targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2-image/sdl2-image-targets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2Config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2ConfigVersion.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2Targets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/sdl2/SDL2mainTargets.cmake
+C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake

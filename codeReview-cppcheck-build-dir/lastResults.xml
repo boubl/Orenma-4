@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.7"/>
+    <errors>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;Window_name&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;Window_name&amp;#039; a value by passing the value to the constructor in the initialization list." cwe="398" file0="src/editor/Editor.cpp" sinceDate="2/14/2022">
+            <location file="src\editor\Editor.cpp" line="6"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;name&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;name&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="src/editor/Editor.cpp" sinceDate="2/14/2022">
+            <location file="src\editor\Editor.cpp" line="5"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Texture&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Texture&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="src/editor/Editor.cpp" sinceDate="2/14/2022">
+            <location file="include\framework\Texture.h" line="10"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Editor&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Editor&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="src/editor/Editor.cpp" sinceDate="2/14/2022">
+            <location file="include\editor\Editor.h" line="13"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;path&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;path&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="src/framework/Texture.cpp" sinceDate="2/14/2022">
+            <location file="src\framework\Texture.cpp" line="19"/>
+        </error>
+        <error id="noConstructor" severity="style" msg="The class &amp;#039;Mouse&amp;#039; does not declare a constructor although it has private member variables which likely require initialization." verbose="The class &amp;#039;Mouse&amp;#039; does not declare a constructor although it has private member variables. Member variables of builtin types are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="src/io/mouse.cpp" sinceDate="2/14/2022">
+            <location file="include\io\Mouse.h" line="4"/>
+        </error>
+        <error id="unusedPrivateFunction" severity="style" msg="Unused private function: &amp;#039;Mouse::UpdateStatus&amp;#039;" verbose="Unused private function: &amp;#039;Mouse::UpdateStatus&amp;#039;" cwe="398" file0="src/io/mouse.cpp" sinceDate="2/14/2022">
+            <location file="include\io\Mouse.h" line="18"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="src/io/mouse.cpp" sinceDate="2/14/2022">
+            <location file="src\io\mouse.cpp" line="7"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;UpdateStatus&amp;#039; is never used." verbose="The function &amp;#039;UpdateStatus&amp;#039; is never used." cwe="561" sinceDate="2/14/2022">
+            <location file="src\io\mouse.cpp" line="6"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;surface&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;surface&amp;#039; is assigned a value that is never used." cwe="563" file0="src/main/main.cpp" sinceDate="2/14/2022">
+            <location file="src\main\main.cpp" line="29"/>
+        </error>
+    </errors>
+</results>

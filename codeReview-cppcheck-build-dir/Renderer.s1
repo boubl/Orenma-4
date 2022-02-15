@@ -1,0 +1,7 @@
+Init call:[SDL_CreateRenderer,SDL_SetRenderDrawColor] noreturn:[SDL_SetRenderDrawColor]
+Begin call:[SDL_RenderClear] noreturn:[SDL_RenderClear]
+Draw call:[SDL_RenderCopy] noreturn:[SDL_RenderCopy]
+Draw call:[SDL_RenderCopyEx] noreturn:[SDL_RenderCopyEx]
+End call:[SDL_RenderPresent] noreturn:[SDL_RenderPresent]
+Draw call:[Draw] noreturn:[Draw]
+Close call:[SDL_DestroyRenderer] noreturn:[SDL_DestroyRenderer]
